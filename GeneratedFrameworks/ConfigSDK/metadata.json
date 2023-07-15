@@ -1,0 +1,44 @@
+{
+  "framework_name": "ConfigSDK.framework",
+  "static_framework": false,
+  "resources": [
+
+  ],
+  "resource_bundles": [
+
+  ],
+  "build_settings": {
+    "BUILD_LIBRARY_FOR_DISTRIBUTION": "YES",
+    "CLANG_ENABLE_OBJC_WEAK": "NO",
+    "CODE_SIGN_IDENTITY": "",
+    "CODE_SIGN_IDENTITY[sdk=appletvos*]": "",
+    "CODE_SIGN_IDENTITY[sdk=iphoneos*]": "",
+    "CODE_SIGN_IDENTITY[sdk=watchos*]": "",
+    "CURRENT_PROJECT_VERSION": "1",
+    "DEFINES_MODULE": "YES",
+    "DYLIB_COMPATIBILITY_VERSION": "1",
+    "DYLIB_CURRENT_VERSION": "1",
+    "DYLIB_INSTALL_NAME_BASE": "@rpath",
+    "GCC_PREFIX_HEADER": "Target Support Files/ConfigSDK/ConfigSDK-prefix.pch",
+    "INFOPLIST_FILE": "Target Support Files/ConfigSDK/ConfigSDK-Info.plist",
+    "INSTALL_PATH": "$(LOCAL_LIBRARY_DIR)/Frameworks",
+    "IPHONEOS_DEPLOYMENT_TARGET": "10.0",
+    "LD_RUNPATH_SEARCH_PATHS": [
+      "$(inherited)",
+      "@executable_path/Frameworks",
+      "@loader_path/Frameworks"
+    ],
+    "MODULEMAP_FILE": "Target Support Files/ConfigSDK/ConfigSDK.modulemap",
+    "PRODUCT_MODULE_NAME": "ConfigSDK",
+    "PRODUCT_NAME": "ConfigSDK",
+    "SDKROOT": "iphoneos",
+    "SKIP_INSTALL": "YES",
+    "SWIFT_ACTIVE_COMPILATION_CONDITIONS": "$(inherited) ",
+    "SWIFT_VERSION": "5.0",
+    "TARGETED_DEVICE_FAMILY": "1,2",
+    "VERSIONING_SYSTEM": "apple-generic",
+    "VERSION_INFO_PREFIX": ""
+  },
+  "source_hash": "ffeebd1bf0287d288d83aa22c4bbe684",
+  "project_root": "/Users/bang.nguyen/Documents/Work/GrabOS/cocoapods-binary-cache/PodBinaryCacheExample"
+}
