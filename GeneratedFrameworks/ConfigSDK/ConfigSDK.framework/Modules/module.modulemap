@@ -1,0 +1,11 @@
+framework module ConfigSDK {
+  umbrella header "ConfigSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ConfigSDK.Swift {
+    header "ConfigSDK-Swift.h"
+    requires objc
+}
